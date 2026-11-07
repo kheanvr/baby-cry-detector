@@ -1,0 +1,5 @@
+tflite-runtime
+numpy<2.0.0
+sounddevice
+soundfile
+librosa>=0.10.0

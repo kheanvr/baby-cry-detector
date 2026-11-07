@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Large data / training artifacts (not needed at runtime)
+X_features.npy
+y_labels.npy
+
+# Keras models (TFLite model IS included)
+*.h5
+
+# Pre-built wheels (users install via pip)
+*.whl
+
+# Deployment zips (build artifacts)
+*.zip
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
